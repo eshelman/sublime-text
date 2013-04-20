@@ -1,0 +1,24 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"color_scheme": "Packages/Theme - Phoenix/Color Scheme/Phoenix Dark Orange.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 11,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"rulers":
+	[
+		80
+	],
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+
+    // Set to false to prevent line numbers being drawn in the gutter
+    "line_numbers": false,
+
+    // Valid values are "smooth", "phase", "blink", "wide" and "solid".
+    "caret_style": "wide",
+    "word_wrap": "true",
+	"vintage_start_in_command_mode": true
+}

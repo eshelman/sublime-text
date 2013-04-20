@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+# ${1:Microway Cluster Management Software (MCMS)}
+#
+# Copyright (c) 2013 by Microway, Inc.
+# This software is proprietary and may not be redistributed.
+#
+# Author(s): Eliot Eshelman${2:
+#
+#
+# Read and take to heart:
+# http://google-styleguide.googlecode.com/svn/trunk/pyguide.html}
+######################################################################
+
+import {$3}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sn-newfile</tabTrigger>
+</snippet>

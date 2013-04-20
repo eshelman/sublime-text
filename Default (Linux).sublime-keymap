@@ -1,0 +1,10 @@
+[
+    { "keys": ["ctrl+."], "command": "indent" },
+    { "keys": ["ctrl+,"], "command": "unindent" },
+    { "keys": ["ctrl+["], "command": "fold" },
+    { "keys": ["ctrl+]"], "command": "unfold" },
+    { "keys": ["ctrl+shift+["], "command": "fold_all" },
+    { "keys": ["ctrl+shift+]"], "command": "unfold_all" },
+    { "keys": ["ctrl+9"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["ctrl+0"], "command": "focus_group", "args": { "group": 1 } }
+]
