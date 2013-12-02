@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+class test_${1:function_name}:
+    """Test ${2:function_name} function"""
+
+    def setup(self):
+        ${3:pass}
+
+    def teardown(self):
+        ${4:pass}
+
+    def test_${5:number_one}(self):
+        """${6:Description of first test.}"""
+        eq_(
+            ${7:Expression to execute.},
+            ${8:Expected result of expression}
+        )
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sn-nosetest-class</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Adds a nose unittest skeleton class.</description>
+</snippet>

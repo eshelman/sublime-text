@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-# ${1:Microway Cluster Management Software (MCMS)}
+# ${1:Microway Cluster Management Software (MCMS)
 #
 # Copyright (c) 2013 by Microway, Inc.
-# This software is proprietary and may not be redistributed.
+# This software is proprietary and may not be redistributed.}
 #
 # Author(s): Eliot Eshelman${2:
 #
@@ -12,8 +12,11 @@
 # http://google-styleguide.googlecode.com/svn/trunk/pyguide.html}
 ################################################################################
 
-import {$3}
+import {$3:python_module}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>sn-newfile</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Boilerplate for the top of a Python file.</description>
 </snippet>
