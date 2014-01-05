@@ -5,18 +5,15 @@
 # Copyright (c) 2014 by Microway, Inc.
 # This software is proprietary and may not be redistributed.}
 #
-# Author(s): Eliot Eshelman${2:
+# Author(s): Eliot Eshelman
 #
 #
-# Read and take to heart:
-# http://google-styleguide.googlecode.com/svn/trunk/pyguide.html}
+#${2:Description of file purpose}
 ################################################################################
-
-import {$3:python_module}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>sn-newfile</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.python</scope>
-    <description>Boilerplate for the top of a Python file.</description>
+    <scope>source.yaml</scope>
+    <description>Boilerplate for the top of a YAML/SaltStack file.</description>
 </snippet>
